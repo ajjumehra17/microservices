@@ -57,6 +57,7 @@ public class JwtUtil {
     }
 
     public Long extractUserId(String token) {
-            return getUserIdFromToken(token);
+
+        return getUserIdFromToken(token);
     }
 }
